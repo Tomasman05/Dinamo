@@ -7,11 +7,16 @@ body {
   height: 200px;
   margin-right: 20px;
 }
-
+.jobbra {
+  text-align: right;
+  margin-right: 100px;
+}
 h1 {
   margin: 40px 0px 30px 180px;
 }
-
+#link a:hover {
+  color: red;
+}
 h1,
 h2 {
   font-variant: small-caps;
@@ -20,7 +25,9 @@ h2 {
 
 p {
   margin: 5px 100px 5px 5px;
-  text-indent: 40px;
+  text-indent: 30px;
+  text-align: justify;
+  line-height: 110%;
 }
 
 #tartalom {
@@ -29,14 +36,16 @@ p {
   background-repeat: repeat-y;
   background-position: right top;
   background-color: rgba(222, 222, 222);
-  margin-bottom: 20px;
+  margin: 40px auto 20px auto;
   padding: 40px;
+  width: 870px;
 }
 .eletrajz {
-  background-color: rgb(104, 103, 103);
+  background-color: rgb(111, 111, 111);
   color: white;
   padding: 10px;
-  text-indent: 40px;
+  text-indent: 30px;
+  font-size: 80%;
 }
 
 li {
